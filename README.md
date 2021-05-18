@@ -79,5 +79,5 @@ tensorboard --logdir logs/ --bind_all
 ```
 
 ___    
-For any additional information or request, please contact [Dario Fontanel](mailto:dario.fontanel@polito.it) at ***dario.fontanel AT polito.it***.
+For any additional information or requests, please contact [Dario Fontanel](mailto:dario.fontanel@polito.it) at ***dario.fontanel AT polito.it***.
 
