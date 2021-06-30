@@ -2,6 +2,8 @@
 
 This is the official code implementation of the paper **"Detecting Anomalies in Semantic Segmentation with Prototypes"** by Dario Fontanel, Fabio Cermelli, Massimiliano Mancini and Barbara Caputo accepted at **SAIAD** CVPRW 2021.
 
+[[article]](https://openaccess.thecvf.com/content/CVPR2021W/SAIAD/papers/Fontanel_Detecting_Anomalies_in_Semantic_Segmentation_With_Prototypes_CVPRW_2021_paper.pdf)
+
 ![teaser](docs/teaser.png)
 In this paper, we address Anomaly Segmentation through prototype learning, where the anomalies (light-blue) are all regions unmatched with any class prototype learned by the model.
 
@@ -78,6 +80,18 @@ cd ~/PAnS
 tensorboard --logdir logs/ --bind_all
 ```
 
-___    
-For any additional information or requests, please contact [Dario Fontanel](mailto:dario.fontanel@polito.it) at ***dario.fontanel AT polito.it***.
+## Cite us
+If you use this repository, please consider to cite
 
+```
+@inproceedings{fontanel2021detecting,
+  title={Detecting Anomalies in Semantic Segmentation with Prototypes},
+  author={Fontanel, Dario and Cermelli, Fabio and Mancini, Massimiliano and Caputo, Barbara},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={113--121},
+  year={2021}
+}
+```
+
+___
+For any additional information or requests, please contact [Dario Fontanel](mailto:dario.fontanel@polito.it) at ***dario.fontanel AT polito.it***.
