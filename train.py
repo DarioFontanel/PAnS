@@ -2,7 +2,6 @@ import torch
 from torch import distributed
 import torch.nn as nn
 from tqdm import tqdm
-from loss_functions import get_loss
 import torch.nn.functional as functional
 import skimage.measure as measure
 
