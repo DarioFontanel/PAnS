@@ -29,7 +29,7 @@ To facilitate the installation of all the dependencies, the requirement file is 
 
 ## Data preparation
 - Download StreetHazards dataset following this [repo](https://github.com/hendrycks/anomaly-seg).
-- Download InPlaceAbn pretrained weights following this [repo](https://github.com/mapillary/inplace_abn#training-on-imagenet-1k).
+- Download InPlaceAbn pretrained weights following this [repo](https://github.com/mapillary/inplace_abn#training-on-imagenet-1k). ResNet50 InPlaceAbn pretrained weights can be also downloaded [here](https://drive.google.com/drive/folders/1i7aufwaEJHfNcmuQ3ouxcDsvxdZo1ucz?usp=sharing). 
 
 Note that the pretrained weights are made on multiple-gpus with [DDP](https://pytorch.org/docs/stable/notes/ddp.html). 
 In this repo DDP is used as well, but the model is firstly instantiated without 
